@@ -28,11 +28,10 @@ $arquivo = fopen('arquivo.n','r');
                 <a href="criar.php">Criar</a> <br> <br> <br>
             </div>
         </header>
-
+        
         <section>
             
-               <h2>Noticias</h2>
-           
+           <h2>Noticias</h2>
                 <?php foreach($noticias as $news){ ?>
                     <?php
                       $noticia_dados = explode('/',$news);
