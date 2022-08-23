@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #1b1919b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+section{
+    border: solid 1px silver;
+    height: 600px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    font-size: 16px;
+    width: 800px;
+    height: 20px;
+}
+select{
+    height: 50px;
+    width: 800px;
+    height: 20px;
+}
+textarea{
+    font-size: 20px;
+    width: 800px;
+}
+.voltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 68, 255);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.botao input{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 68, 255);
+    color: white;
+    border: none;
+}
+.botao{
+    width:100px;
+    height: 50px;  
+    position: relative;
+    left: 700px;
+    bottom: 50px;
+}
